@@ -1,0 +1,13 @@
+
+<div>
+  <h2>LIST PRODUCTS</h2>
+  <h3>Cart: CAD$ {{sum}}</h3>
+
+  <div *ngFor="let product of products">
+    <app-product-item 
+      [product]="product" 
+      (addToCart)="onAddToCart($event)" 
+      (deleteFromCart)="onDeleteFromCart($event)">
+    </app-product-item>
+  </div>
+</div>

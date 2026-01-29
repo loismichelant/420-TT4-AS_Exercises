@@ -1,0 +1,8 @@
+<div>
+  <p>ID: {{product.id}}</p>
+  <p>{{product.name}}</p>
+  <p>Price: CAD$ {{product.price}}</p>
+  <p>Quantity: {{product.quantity}}</p>
+  <button (click)="onAddToCart()">Add to Cart</button>
+  <button (click)="onDeleteFromCart()" [disabled]="product.quantity === 0">Delete from Cart</button>
+</div>
