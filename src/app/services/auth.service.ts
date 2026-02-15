@@ -26,4 +26,7 @@ export class AuthService {
     return this.http.post<AuthResponse>(`${this.API_URL}/auth/login`, {email, password})
   }
 
+  signup(name: string, email: string, password: string, program: string): Observable<AuthResponse>{
+    return this.http.post<AuthResponse>(`${this.API_URL}/auth/signup`, {name, email, password, program})
+  }
 }
