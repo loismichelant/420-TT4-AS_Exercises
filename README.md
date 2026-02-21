@@ -1,4 +1,4 @@
-# Devoir 1 - Gestion d'un panier (Angular)
+# Devoir 1 - Gestion d'un panier
 
 ## Instructions :
 
@@ -14,7 +14,7 @@ Lorsque la quantité d’un produit atteint zéro, le bouton de suppression est 
 
 ---
 
-# Devoir 2 - Création d'un utilisateur (Angular)
+# Devoir 2 - Création d'un utilisateur
 
 ## Instructions :
 
@@ -28,6 +28,20 @@ body :
   "password": "string",
   "program": "string"
 }"
+
+---
+
+## Description du travail réalisé
+
+À compléter...
+
+---
+
+# Devoir 3 - Création d'un nouveau Material
+
+## Instructions :
+
+"Mettez en oeuvre l'intégration pour créer un nouveau Material dans l'application Angular."
 
 ---
 
